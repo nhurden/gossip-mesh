@@ -20,7 +20,10 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/nhurden/gossiper#readme>
 
 dependencies:
-- rio
+- base-noprelude >= 4.9 && < 5
+- ip
+- lens
+- relude
 
 library:
   source-dirs: src
