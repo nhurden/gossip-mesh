@@ -20,10 +20,51 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/nhurden/gossiper#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- rio
 
 library:
   source-dirs: src
+
+default-extensions:
+  - AutoDeriveTypeable
+  - BangPatterns
+  - BinaryLiterals
+  - ConstraintKinds
+  - DataKinds
+  - DefaultSignatures
+  - DeriveDataTypeable
+  - DeriveFoldable
+  - DeriveFunctor
+  - DeriveGeneric
+  - DeriveTraversable
+  - DoAndIfThenElse
+  - EmptyDataDecls
+  - ExistentialQuantification
+  - FlexibleContexts
+  - FlexibleInstances
+  - FunctionalDependencies
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - InstanceSigs
+  - KindSignatures
+  - LambdaCase
+  - MonadFailDesugaring
+  - MultiParamTypeClasses
+  - MultiWayIf
+  - NamedFieldPuns
+  - NoImplicitPrelude
+  - OverloadedStrings
+  - PartialTypeSignatures
+  - PatternGuards
+  - PolyKinds
+  - RankNTypes
+  - RecordWildCards
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TupleSections
+  - TypeFamilies
+  - TypeSynonymInstances
+  - ViewPatterns
 
 executables:
   gossiper-exe:
